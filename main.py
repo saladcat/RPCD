@@ -361,8 +361,8 @@ class RPCDPrepreocess():
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('-s', type=str, help='src', default=r'C:\Users\86189\Documents\data-20200118')
-    parser.add_argument('-d', type=str, help='dst', default='out')
+    parser.add_argument('-s', type=str, help='src', default='D:/code/data')
+    parser.add_argument('-d', type=str, help='dst', default='res')
     args = parser.parse_args()
     dst_path = args.d
     src_path = args.s

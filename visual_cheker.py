@@ -2,8 +2,8 @@ import open3d as o3d
 import numpy as np
 import os
 
-DATA_DIR = 'out'
-RST_FILE = 'rst.csv'
+DATA_DIR = 'res'
+RST_FILE = 'zhu_rst.csv'
 HELP = """
         程序使用说明
         Q: 下一个
